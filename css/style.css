@@ -1,0 +1,97 @@
+body{margin: 0 auto; padding: 0; }
+
+h1,h2,h3,h4,h5{ font-weight: 600;}
+a{color: #595959;}
+.container{
+    background:#fff; 
+    border-radius: 10px;    
+    }
+
+.login-block{
+    float:left;
+    width:100%;
+    padding : 0px 0;
+    }
+.banner-sec{
+    background:#dedede; 
+    height:100vh;  min-height: 600px;
+    border-radius: 0 10px 10px 0;
+    padding:0;       display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-sec img{
+max-width: 340px;
+margin: 0 auto;
+}
+
+.login-sec{
+    padding: 0px 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-form .form-group {
+    margin-bottom: 2rem;
+}
+
+.login-form .login-text {
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 10px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #1A1A1A;
+    font-weight: 400;
+}
+.login-sec h2{
+    margin-bottom:30px; font-weight:800; 
+    font-size:30px; color:#1A1A1A;
+}
+
+.btn-login{
+    background: #595959; color:#fff; font-weight:600;
+}
+.banner-text{
+    width: 60%;
+    margin: 0 auto;padding-top: 30px;text-align: center;
+    }
+.banner-text p{color:#1A1A1A;}
+.login-with-social button {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 10px;
+    width: 240px;    line-height: 15px;
+    padding: 8px 0; font-weight: bold;
+    margin-bottom: 15px;    text-align: left;
+}
+.login-with-social button img {width:16px;float: left;
+    margin-left: 15px;margin-right: 10px;}
+    form.login-form {
+        margin: auto
+    }
+    .logo {
+        margin-bottom: 70px;
+    }
+
+    @media(max-width:540px){
+        .logo {
+            margin-bottom: 50px;
+            margin-top: 20px;
+        }
+    }
+/*-----dashboard------*/
+@media(min-width:992px){
+    .container-fluid {max-width: 1900px;}
+}
+.nav .dropdown-menu.show {
+    right: 0;
+    left: auto;
+}
+header .navbar{width:100%;}
+.process-profile {
+    box-shadow: 0px 0px 11px 4px #eeeeee;
+    text-align: center;
+    padding: 25px 0;
+}

@@ -60,16 +60,16 @@ margin: 0 auto;
 .banner-text p{color:#1A1A1A;}
 .login-with-social button {
     background-color: #f8f8f8;
-    border: none;
+    border: none; width: 215px;
     border-radius: 10px;
-    width: 240px;    line-height: 15px;
-    padding: 8px 0; font-weight: bold;
-    margin-bottom: 15px;    text-align: left;
+   line-height: 15px; font-size: 14px; 
+    padding: 8px 0; font-weight: bold;    margin-right: 10px;
+    margin-bottom: 15px;    text-align: left;  padding-right: 15px; 
 }
 .login-with-social button img {width:16px;float: left;
     margin-left: 15px;margin-right: 10px;}
     form.login-form {
-        margin: auto
+        margin: auto; width: calc(100% - 120px);
     }
     .logo {
         margin-bottom: 70px;
@@ -81,17 +81,129 @@ margin: 0 auto;
             margin-top: 20px;
         }
     }
-/*-----dashboard------*/
-@media(min-width:992px){
-    .container-fluid {max-width: 1900px;}
+    /*----dashboard-----*/
+    .main-body {
+        padding: 50px 20px;
+    }
+    .conainer-fluid{max-width: 1900px; margin: 0 auto; padding: 0 25px;}
+    
+    .faq {margin-top: 35px; padding: 0;}
+    .faq ul {
+        padding-left: 0;
+    }
+    .faq ul li{border-bottom: 1px solid #ddd; list-style: none;
+        float: left;
+        padding:5px; margin-top: 20px; padding-bottom: 20px;
+    }
+    .faq ul li img {
+        float: left;
+        margin-right: 10px;
+    }
+ 
+    .view-more a {
+        margin: 20px 0 40px 0;
+        display: block;
+        float: left;
+        width: 100%;
+        text-decoration: underline;
+        font-size: 16px; font-weight: 500;
+    }
+    .chat-dashboard{background-color: #CBCBCB;
+        padding: 15px; clear: both;
+    }
+    .chat-dashboard .card{background: none; border:0}
+    .chat-dashboard h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .chat-dashboard p {
+        margin-bottom: 0;
+    }
+   header{box-shadow: 0px 0px 8px -1px #ddd;}
+    header .dropdown-menu.show {
+        display: block;
+        left: auto;
+        right: 0;
+    }
+    header .navbar .navbar-brand {
+        margin-left: 135px;
+    }
+    .dashboard-banner img {
+        padding: 60px;
+    }  
+    .btn-main {
+        background-color: #696969;
+        color: #fff;
+        width: 150px;
+        height: 42px;
+    }  
+    .dashboard-detail .nav-link {
+        display: block;
+        padding: 1rem 2.5rem;
+        background-color: #FAFAFA;
+        margin: 0 17px 0 0;font-weight: bold;
+        font-size: 18px;
+    }
+    .dashboard-detail .tab-content {
+        box-shadow: 0px 0px 4px 2px #efefef;
+        padding-bottom: 15px;
+    }
+    .dashboard-detail .nav-tabs .nav-item.show .nav-link,    
+    .dashboard-detail .nav-tabs .nav-link.active{
+        box-shadow: 0px -3px 4px 2px #efefef;
+    }
+
+   .process-block {
+        box-shadow: 0px 16px 16px -5px #efefef;
+        padding: 30px 0 20px 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    @media (min-width: 992px){
+   header .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2.5rem;
+    }
 }
-.nav .dropdown-menu.show {
-    right: 0;
-    left: auto;
+
+.insurance .card {
+    background-color: #FBFBFB;
+    border-radius: 15px;
+    border: 0;    margin-bottom: 25px
 }
-header .navbar{width:100%;}
-.process-profile {
-    box-shadow: 0px 0px 11px 4px #eeeeee;
-    text-align: center;
-    padding: 25px 0;
+.insurance .card p {
+    margin-bottom: 0;
+    color: #B6B6B6; text-transform: uppercase;
+}
+.insurance .card h4 {
+    font-size: 16px;
+    color: #5C5C5C;
+}
+.insurance h3 {
+    font-size: 26px;
+    margin-top: 30px;
+}
+.insurance p {
+    color: #B6B6B6;
+}
+.overview h4 {
+    color: #5C5C5C;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.overview p{
+    color: #B6B6B6; line-height: 35px;
+}
+.benefits h4 {
+    color: #5C5C5C;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.benefits ul {padding-left: 20;}
+.benefits ul li{  color: #B6B6B6; line-height: 35px; list-style: circle;}
+.main-body aside h2 {
+    color: #5C5C5C;
+    font-size: 28px;
+    font-weight: 600;
 }
